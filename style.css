@@ -1,0 +1,53 @@
+.bgv {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.title {
+    text-align: center;
+}
+
+.title {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subTitle {
+    text-align: center;
+}
+
+.subTitle {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .bgv {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .bgv {
+        width: auto;
+        height: 100%;
+    }
+}
